@@ -29,9 +29,8 @@
 }
 
 .container__imagem {
-    padding: 1em;
-    height: 40px;
-    width: 80px;
+    height: 100px;
+    width: auto;
 }
 
 .lista-menu {
