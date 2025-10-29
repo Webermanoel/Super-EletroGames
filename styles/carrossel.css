@@ -77,6 +77,11 @@
     text-decoration: none;
 }
 
+.botões__ancora:hover {
+    background-color: var(--preto);
+    color: var(--cor-botao);
+}
+
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 26px;
