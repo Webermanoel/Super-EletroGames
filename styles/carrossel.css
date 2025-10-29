@@ -78,7 +78,7 @@
 }
 
 .botões__ancora:hover {
-    background-color: var(--preto);
+    background-color: var(--branco);
     color: var(--cor-botao);
 }
 
