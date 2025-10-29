@@ -114,6 +114,12 @@
         display: none;
     }
 
+    .container__imagem {
+    height: 80px;
+    width: auto;
+    }
+
+
     .cabeçalho__menu-hamburguer {
         display: none;
     }
@@ -158,6 +164,12 @@
     .cabeçalho {
         padding: 0 2em;
     }
+
+    .container__imagem {
+    height: 80px;
+    width: auto;
+    }
+
 
     .opções {
         margin-right: auto;
