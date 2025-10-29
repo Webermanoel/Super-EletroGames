@@ -70,7 +70,7 @@
 }
 
 .botões__ancora {
-    background-color: var(--branco);
+    background-color: var(--cor-botao);
     padding: 1em 2.2em;
     color: var(--preto);
     font-weight: 700;
