@@ -29,8 +29,9 @@
 }
 
 .container__imagem {
-    height: 80px;
     width: auto;
+    height: 80px;
+    object-fit: contain;
 }
 
 .lista-menu {
@@ -114,12 +115,6 @@
         display: none;
     }
 
-    .container__imagem {
-    height: 80px;
-    width: auto;
-    }
-
-
     .cabeçalho__menu-hamburguer {
         display: none;
     }
@@ -165,12 +160,6 @@
         padding: 0 2em;
     }
 
-    .container__imagem {
-    height: 80px;
-    width: auto;
-    }
-
-
     .opções {
         margin-right: auto;
     }
@@ -178,4 +167,18 @@
     .container__texto {
         display: block;
     }
+}
+
+@media (max-width: 768px) {
+  .cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .container__imagem {
+    height: 60px;
+    max-width: 90%;
+  }
 }
